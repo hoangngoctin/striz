@@ -46,6 +46,13 @@ table {
 }
 
 /* BLOG */
+.all-blog{
+    background-image: url(./img/bg-striz.webp);
+    background-size: contain;
+    background-position: center center;
+    filter: brightness(.75);
+}
+
 .blog{
     padding: 2rem 1rem;
 }
@@ -306,6 +313,13 @@ table {
 }
 
 /* BLOG-DETAIL */
+.all-blogdetail{
+    background-image: url(./img/bg-striz.webp);
+    background-size: contain;
+    background-position: center center;
+    filter: brightness(.75);
+}
+
 .blog-detail{
     padding: 2rem 1rem;
 }
@@ -470,7 +484,7 @@ table {
     flex-direction: column;
     justify-content: center;
     padding-left: .5rem;
-    background: #fff;
+    /* background: #fff; */
 }
 
 
@@ -594,6 +608,7 @@ table {
     width: 100%;
     padding: 1rem 0 3rem;
     border-bottom: 1px solid #dbd9d9;
+    background: none;
 }
 
 .blog-detail .blog-right .foot .input-cmt input:focus{
@@ -615,6 +630,7 @@ table {
     border-bottom: 1px solid #dbd9d9;
     color: #7e7e7e;
     font-size: .8rem;
+    background: none;
 }
 
 .blog-detail .blog-right .foot .input-info input:focus{
